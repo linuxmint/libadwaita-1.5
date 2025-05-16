@@ -198,8 +198,8 @@ find_theme_dir_each (const gchar  *dir,
 
   debug_theme ("Found theme directory '%s'.", parent_dir);
 
-  base_path = g_build_filename (parent_dir, "libadwaita", base_file, NULL);
-  colors_path = g_build_filename (parent_dir, "libadwaita", color_file, NULL);
+  base_path = g_build_filename (parent_dir, "libadwaita-1.0", base_file, NULL);
+  colors_path = g_build_filename (parent_dir, "libadwaita-1.0", color_file, NULL);
 
   if (g_file_test (base_path, G_FILE_TEST_EXISTS))
     {

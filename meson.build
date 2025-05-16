@@ -125,7 +125,7 @@ if package_subdir != ''
   datadir    = get_option('datadir') / package_subdir
   libdir     = get_option('libdir')  / package_subdir
   girdir     = get_option('datadir') / package_subdir / 'gir-1.0'
-  theme_dir  = get_option('datadir') / package_subdir / 'themes' / 'LibAdwaita-Example' / 'libadwaita'
+  theme_dir  = get_option('datadir') / package_subdir / 'themes' / 'LibAdwaita-Example' / 'libadwaita-1.0'
   typelibdir = get_option('libdir')  / package_subdir / 'girepository-1.0'
   vapidir    = get_option('datadir') / package_subdir / 'vapi'
 
@@ -133,7 +133,7 @@ else
   datadir    = get_option('datadir')
   libdir     = get_option('libdir')
   girdir     = get_option('datadir') / 'gir-1.0'
-  theme_dir  = get_option('datadir') / 'themes' / 'LibAdwaita-Example' / 'libadwaita'
+  theme_dir  = get_option('datadir') / 'themes' / 'LibAdwaita-Example' / 'libadwaita-1.0'
   typelibdir = get_option('libdir')  / 'girepository-1.0'
   vapidir    = get_option('datadir') / 'vala' / 'vapi'
 endif
