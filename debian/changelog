@@ -1,3 +1,12 @@
+libadwaita-1 (1.5.0-1mint1) zara; urgency=medium
+
+  [ Michael Webster ]
+  * adw-style-manager.c: Try to use the current system theme for style info.
+  * build: Install a copy of the default theme as 'LibAdwaita' as part of the libadwaita-1-examples package.
+  * AdwSettings: Watch for theme name changes via xdg-portal or gsettings.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 20 May 2025 12:07:51 +0100
+
 libadwaita-1 (1.5.0-1ubuntu2) noble; urgency=medium
 
   * No-change rebuild for CVE-2024-3094
